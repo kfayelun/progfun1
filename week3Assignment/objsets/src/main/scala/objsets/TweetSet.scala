@@ -262,7 +262,7 @@ object GoogleVsApple {
   lazy val appleTweets: TweetSet = TweetReader.allTweets.filter(tweet => apple.exists(key => tweet.text.contains(key)))
 
 //  googleTweets foreach println
-//  appleTweets foreach println
+//  appleTweets foreach println //
 
   /**
    * A list of all tweets mentioning a keyword from either apple or google,
