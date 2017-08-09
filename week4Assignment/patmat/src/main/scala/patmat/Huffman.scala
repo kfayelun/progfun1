@@ -1,6 +1,9 @@
 package patmat
 
 import common._
+import patmat.Huffman._
+
+import scala.reflect.api.Trees
 
 /**
  * Assignment 4: Huffman coding
@@ -25,13 +28,13 @@ object Huffman {
 
   // Part 1: Basics
   def weight(tree: CodeTree): Int = tree match {
-    case Leaf(c, w) => w
-    case Fork(l, r, c, w) => weight(l) + weight(r)
+    case Leaf(_, w) => w
+    case Fork(l, r, _, _) => weight(l) + weight(r)
   }
   
   def chars(tree: CodeTree): List[Char] = tree match {
-    case Leaf(c, w) => List(c)
-    case Fork(l, r, c, w) => chars(l) ::: chars(r)
+    case Leaf(c, _) => List(c)
+    case Fork(l, r, _, _) => chars(l) ::: chars(r)
   }
   
   def makeCodeTree(left: CodeTree, right: CodeTree) =
@@ -75,7 +78,6 @@ object Huffman {
    */
     def times(chars: List[Char]): List[(Char, Int)] = chars match {
       case List() => Nil
-      case x::Nil => (x, 1)::Nil  // why is this necessary?
       case x::xs =>
         (x, chars.count(_ == x))::times(xs.filter(_ != x))
     }
@@ -91,7 +93,6 @@ object Huffman {
     def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
     val result = freqs match {
       case Nil => Nil
-      case (c, x)::Nil => Leaf(c, x)::Nil
       case (c, x)::xs => Leaf(c, x)::makeOrderedLeafList(xs)
     }
     result.sortBy(_.weight)
@@ -118,14 +119,13 @@ object Huffman {
    * If `trees` is a list of less than two elements, that list should be returned
    * unchanged.
    */
-    def combine(trees: List[CodeTree]): List[CodeTree] = {
-      val result = trees match {
-        case Nil => Nil
-//        case singleton(trees) => trees
-        case (_)::Nil => trees
-        case (l1, r1, c1, w1)::(l2, r2, c2, w2)::rest => Fork(trees[0],trees[1], c1::c2, (w1 + w2))
-      }
-      result.sortBy(_.weight)
+    def combine(trees: List[CodeTree]): List[CodeTree] = trees match {
+      case Nil => Nil
+      case (_) :: Nil => trees
+      case x::xs::rest =>
+        val ff = makeCodeTree(x, xs)
+        (ff::rest)sortBy weight
+    }
   
   /**
    * This function will be called in the following way:
@@ -144,7 +144,11 @@ object Huffman {
    *    the example invocation. Also define the return type of the `until` function.
    *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
    */
-    def until(xxx: ???, yyy: ???)(zzz: ???): ??? = ???
+  // called like: until(combine, singleton)(CTlist)
+  def until(done: List[CodeTree] => Boolean, addFork: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): CodeTree = {
+    if (done(trees)) trees.head
+    else until(done, addFork)(addFork(trees))
+  }
   
   /**
    * This function creates a code tree which is optimal to encode the text `chars`.
@@ -152,7 +156,10 @@ object Huffman {
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-    def createCodeTree(chars: List[Char]): CodeTree = ???
+  def createCodeTree(chars: List[Char]): CodeTree = {
+    val orderedList = makeOrderedLeafList(times(chars))
+    until(singleton, combine)(orderedList)
+  }
   
 
   // Part 3: Decoding
@@ -234,5 +241,10 @@ object TestH extends App {
     Huffman.Leaf('t', 2))
 
 //    println(sampleTree)
-  println(Huffman.makeOrderedLeafList(Huffman.times(Huffman.string2Chars("This is a string"))))
+  val sList = Huffman.makeOrderedLeafList(Huffman.times(Huffman.string2Chars("This is a string")))
+  println(sList)
+  println(Huffman.combine(sList))
+
+//  val orderedList = makeOrderedLeafList(Huffman.times(chars))
+  println(until(singleton, combine)(sList))
 }
