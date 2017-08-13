@@ -144,7 +144,6 @@ object Huffman {
    *    the example invocation. Also define the return type of the `until` function.
    *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
    */
-  // called like: until(combine, singleton)(CTlist)
   def until(done: List[CodeTree] => Boolean, addFork: List[CodeTree] => List[CodeTree])(trees: List[CodeTree]): CodeTree = {
     if (done(trees)) trees.head
     else until(done, addFork)(addFork(trees))
@@ -170,7 +169,20 @@ object Huffman {
    * This function decodes the bit sequence `bits` using the code tree `tree` and returns
    * the resulting list of characters.
    */
-    def decode(tree: CodeTree, bits: List[Bit]): List[Char] = ???
+    def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
+      if (bits == Nil) return Nil
+      def subDecode(subTree: CodeTree, subBits: List[Bit]): List[Char] = subTree match {
+        case Fork(l, r, c, w) =>
+          if (subBits == Nil) return Nil
+          if (subBits.head == 0) subDecode(l, subBits.tail)
+          else subDecode(r, subBits.tail)
+
+        case Leaf(c, w) =>
+          if (subBits == Nil) c::Nil
+          else c::subDecode(tree, subBits)
+      }
+      subDecode(tree, bits)
+    }
   
   /**
    * A Huffman coding tree for the French language.
@@ -188,7 +200,7 @@ object Huffman {
   /**
    * Write a function that returns the decoded secret
    */
-    def decodedSecret: List[Char] = ???
+  def decodedSecret: List[Char] = decode(frenchCode, secret)
   
 
   // Part 4a: Encoding using Huffman tree
@@ -197,7 +209,23 @@ object Huffman {
    * This function encodes `text` using the code tree `tree`
    * into a sequence of bits.
    */
-    def encode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+  def encode(tree: CodeTree)(text: List[Char]): List[Bit] = {
+
+    def subEncode(subTree: CodeTree, subText: List[Char]): List[Bit] = {
+      if (subText == Nil) return Nil
+      subTree match {
+        case Leaf(c, w) => subEncode(tree, subText.tail)
+        case Fork(l, r, c, w) =>
+          if (chars(l) contains subText.head) 0::subEncode(l, subText)
+          else if (chars(r) contains subText.head) 1::subEncode(r, subText)
+          else {
+            println("We want: " + subText.head + " and chars left is: " + chars(l) + " and chars right is: " + chars(r))
+            throw new NoSuchElementException
+          }
+      }
+    }
+    subEncode(tree, text)
+  }
   
   // Part 4b: Encoding using code table
 
@@ -207,7 +235,7 @@ object Huffman {
    * This function returns the bit sequence that represents the character `char` in
    * the code table `table`.
    */
-    def codeBits(table: CodeTable)(char: Char): List[Bit] = ???
+  def codeBits(table: CodeTable)(char: Char): List[Bit] = ???
   
   /**
    * Given a code tree, create a code table which contains, for every character in the
@@ -217,7 +245,16 @@ object Huffman {
    * a valid code tree that can be represented as a code table. Using the code tables of the
    * sub-trees, think of how to build the code table for the entire tree.
    */
-    def convert(tree: CodeTree): CodeTable = ???
+    def convert(tree: CodeTree): CodeTable = {
+
+      if (tree == Nil) return Nil
+      def convertHelper(subTree: CodeTree, path: List[Bit]): CodeTable =
+        subTree match {
+          case Fork(l, r, c, w) => mergeCodeTables(convertHelper(l, path :+ 0), convertHelper(r, path :+ 1)) // why not ::: ?
+          case Leaf(c, w) => (c, path)::Nil
+        }
+
+    }
   
   /**
    * This function takes two code tables and merges them into one. Depending on how you
@@ -241,10 +278,17 @@ object TestH extends App {
     Huffman.Leaf('t', 2))
 
 //    println(sampleTree)
-  val sList = Huffman.makeOrderedLeafList(Huffman.times(Huffman.string2Chars("This is a string")))
-  println(sList)
-  println(Huffman.combine(sList))
+//  val sList = Huffman.makeOrderedLeafList(Huffman.times(Huffman.string2Chars("This is a string")))
+//  println(sList)
+//  println(Huffman.combine(sList))
 
 //  val orderedList = makeOrderedLeafList(Huffman.times(chars))
-  println(until(singleton, combine)(sList))
+//  println(until(singleton, combine)(sList))
+
+  //  Might want to make sure that there are: no spaces in text and toUpperCase or lowerCase
+//  println(decodedSecret)
+  val encodeString = encode(frenchCode)(string2Chars("thisisastring"))
+  val decodeString = decode(frenchCode, encodeString)
+  println(decodeString)
+
 }
