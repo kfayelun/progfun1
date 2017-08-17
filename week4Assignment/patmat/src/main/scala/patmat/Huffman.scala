@@ -103,9 +103,9 @@ object Huffman {
    * Checks whether the list `trees` contains only one single code tree.
    */
     def singleton(trees: List[CodeTree]): Boolean = trees match {
-      //case ::(head, tail) => true
       case head :: Nil => true // cus we know we are getting in CodeTrees
       case _ => false
+      //case ::(head, tail) => false
     }
   
   /**
@@ -123,9 +123,6 @@ object Huffman {
     def combine(trees: List[CodeTree]): List[CodeTree] = trees match {
       case Nil => Nil
       case _ :: Nil => trees
-//      case x :: xs :: rest =>
-//        val ff = makeCodeTree(x, xs)
-//        (ff::rest)sortBy weight
       case a :: b :: tail =>
         val head = makeCodeTree(a, b)
         (head :: tail) sortBy weight
@@ -176,13 +173,12 @@ object Huffman {
     def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
 
       def subDecode(subTree: CodeTree, subBits: List[Bit]): List[Char] = subTree match {
-        case x : Fork if subBits.isEmpty =>
+        case _ : Fork if subBits.isEmpty =>
           Nil
-        case Fork(l, r, c, w) =>
+        case Fork(l, r, _, _) =>
           if (subBits.head == 0) subDecode(l, subBits.tail)
           else subDecode(r, subBits.tail)
-
-        case Leaf(c, w) =>
+        case Leaf(c, _) =>
           if (subBits.isEmpty) c :: Nil
           else c :: subDecode(tree, subBits)
       }
@@ -218,10 +214,10 @@ object Huffman {
   def encode(tree: CodeTree)(text: List[Char]): List[Bit] = {
 
     def subEncode(subTree: CodeTree, subText: List[Char]): List[Bit] = {
-      if (subText == Nil) return Nil
       subTree match {
-        case Leaf(c, w) => subEncode(tree, subText.tail)
-        case Fork(l, r, c, w) =>
+        case _ if subText == Nil => Nil
+        case _ : Leaf => subEncode(tree, subText.tail)
+        case Fork(l, r, _, _) =>
           if (chars(l) contains subText.head) 0::subEncode(l, subText)
           else if (chars(r) contains subText.head) 1::subEncode(r, subText)
           else {
@@ -242,7 +238,8 @@ object Huffman {
    * the code table `table`.
    */
   def codeBits(table: CodeTable)(char: Char): List[Bit] = {
-    //table.filter(_._1 == char).head._2
+//    Alternatives:
+//    table.filter(_._1 == char).head._2
 //    table.filter(tup => tup._1 == char).head._2
     val list = table.filter {
       case (c, _) => c == char
@@ -274,7 +271,7 @@ object Huffman {
     def convert(tree: CodeTree): CodeTable = {
       def convertHelper(subTree: CodeTree, path: List[Bit]): CodeTable =
         subTree match {
-          case Fork(l, r, c, w) =>
+          case Fork(l, r, _, _) =>
             val left = convertHelper(l, 0 :: path)
             val right = convertHelper(r, 1 :: path)
             mergeCodeTables(left, right) // why not ::: ?
@@ -326,29 +323,27 @@ object Huffman {
 
       val func: (Char) => List[Bit] = codeBits(convert(tree))
       text.flatMap(func)
-
-
-      //      (text map lookup.apply).flatten
+//      (text map lookup.apply).flatten
     }
   }
 
-object TestH extends App {
-  val sampleTree = Huffman.makeCodeTree(
-    Huffman.makeCodeTree(Huffman.Leaf('x', 1), Huffman.Leaf('e', 1)),
-    Huffman.Leaf('t', 2))
-
-//    println(sampleTree)
-//  val sList = Huffman.makeOrderedLeafList(Huffman.times(Huffman.string2Chars("This is a string")))
-//  println(sList)
-//  println(Huffman.combine(sList))
-
-//  val orderedList = makeOrderedLeafList(Huffman.times(chars))
-//  println(until(singleton, combine)(sList))
-
-  //  Might want to make sure that there are: no spaces in text and toUpperCase or lowerCase
-//  println(decodedSecret)
-  val encodeString = encode(frenchCode)(string2Chars("thisisastring"))
-  val decodeString = decode(frenchCode, encodeString)
-  println(decodeString)
-
-}
+//object TestH extends App {
+//  val sampleTree = Huffman.makeCodeTree(
+//    Huffman.makeCodeTree(Huffman.Leaf('x', 1), Huffman.Leaf('e', 1)),
+//    Huffman.Leaf('t', 2))
+//
+////    println(sampleTree)
+////  val sList = Huffman.makeOrderedLeafList(Huffman.times(Huffman.string2Chars("This is a string")))
+////  println(sList)
+////  println(Huffman.combine(sList))
+//
+////  val orderedList = makeOrderedLeafList(Huffman.times(chars))
+////  println(until(singleton, combine)(sList))
+//
+//  //  Might want to make sure that there are: no spaces in text and toUpperCase or lowerCase
+////  println(decodedSecret)
+//  val encodeString = encode(frenchCode)(string2Chars("thisisastring"))
+//  val decodeString = decode(frenchCode, encodeString)
+//  println(decodeString)
+//
+//}
