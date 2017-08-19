@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfaaf24f-3896-4fb2-a36d-88c62c539a17" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../src/main/scala/week6/collectionTests.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../src/main/scala/week6/nQueens.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../src/main/scala/week6/phoneMnemonic.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../src/main/scala/week6/polynomialMap.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../src/main/scala/week6/primeTest.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/libraries/SBT__junit_junit_4_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/libraries/SBT__org_hamcrest_hamcrest_core_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/libraries/SBT__org_scalatest_scalatest_2_11_2_2_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/modules/root-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/modules/root.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/sbt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/scala_compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__junit_junit_4_10_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_hamcrest_hamcrest_core_1_1_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_modules_scala_xml_2_11_1_0_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_11_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_reflect_2_11_7_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalatest_scalatest_2_11_2_2_4_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assignment.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/CommonBuild.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Courses.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/GradingFeedback.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/ScalaTestRunner.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/Settings.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/StudentBuild.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/StudentBuildLike.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/StyleChecker.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/build.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/buildSettings.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/plugins.sbt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scalastyle/scalastyle_config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/forcomp/linuxwords.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/common/package.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/forcomp/package.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/forcomp/AnagramsSuite.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$46aa6d6cb192cb5b9aeb$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$46aa6d6cb192cb5b9aeb$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$46aa6d6cb192cb5b9aeb.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$46aa6d6cb192cb5b9aeb.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$bdb342162c070efb09d6$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$bdb342162c070efb09d6$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$bdb342162c070efb09d6.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$bdb342162c070efb09d6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$fe44d3da5fbd717f0bd9$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$fe44d3da5fbd717f0bd9$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$fe44d3da5fbd717f0bd9.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../project/target/config-classes/$fe44d3da5fbd717f0bd9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$22f28081cc5e3c7d849c$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$22f28081cc5e3c7d849c$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$22f28081cc5e3c7d849c.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$22f28081cc5e3c7d849c.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$24b02f58dbe78d7d6eb7$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$24b02f58dbe78d7d6eb7.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$24b02f58dbe78d7d6eb7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$42ed311f2829f2dd8993$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$42ed311f2829f2dd8993$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$42ed311f2829f2dd8993.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$42ed311f2829f2dd8993.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$7243360388dc4f8237fa$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$7243360388dc4f8237fa$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$7243360388dc4f8237fa.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$7243360388dc4f8237fa.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$879ffd225489846f617e$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$879ffd225489846f617e.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$879ffd225489846f617e.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$921d63a6c55b7352b230$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$921d63a6c55b7352b230.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$921d63a6c55b7352b230.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$e2222044c180c818cfaf$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$e2222044c180c818cfaf$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$e2222044c180c818cfaf.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/project/target/config-classes/$e2222044c180c818cfaf.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$22831c8b0355091582a3$$anonfun$$sbtdef$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$22831c8b0355091582a3$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$22831c8b0355091582a3$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$22831c8b0355091582a3.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$22831c8b0355091582a3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$23d2e375148fe972f425$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$23d2e375148fe972f425$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$23d2e375148fe972f425.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$23d2e375148fe972f425.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$318e6cbf490c6c767df9$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$318e6cbf490c6c767df9$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$318e6cbf490c6c767df9.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$318e6cbf490c6c767df9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$4b535075ac5fba5166b5$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$4b535075ac5fba5166b5$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$4b535075ac5fba5166b5.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$4b535075ac5fba5166b5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$55df56d6cc83713b6d8a$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$55df56d6cc83713b6d8a$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$55df56d6cc83713b6d8a.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$55df56d6cc83713b6d8a.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$62c72b5609f5b4b70a05$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$62c72b5609f5b4b70a05$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$62c72b5609f5b4b70a05.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$62c72b5609f5b4b70a05.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$a0d9788c95ea82242510$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$a0d9788c95ea82242510$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$a0d9788c95ea82242510.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$a0d9788c95ea82242510.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$b6dce18ea385c2797a9e$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$b6dce18ea385c2797a9e$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$b6dce18ea385c2797a9e.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$b6dce18ea385c2797a9e.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$bb618636706971bebe57$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$bb618636706971bebe57$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$bb618636706971bebe57.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$bb618636706971bebe57.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$bfd65bbb7c432eb79908$$anonfun$$sbtdef$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$bfd65bbb7c432eb79908$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$bfd65bbb7c432eb79908.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/config-classes/$bfd65bbb7c432eb79908.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/../../project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/../../project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/scala-2.10/sbt-0.13/classes/StudentBuildLike.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Cons.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Cons.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Empty.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Empty.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$$anonfun$appleTweets$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$$anonfun$appleTweets$1$$anonfun$apply$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$$anonfun$appleTweets$1.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$$anonfun$appleTweets$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$$anonfun$googleTweets$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$$anonfun$googleTweets$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$$anonfun$googleTweets$1.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$$anonfun$googleTweets$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/GoogleVsApple$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Main$$anonfun$1.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Main$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Main$.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Main$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Main$delayedInit$body.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Main$delayedInit$body.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Nil$.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/Nil$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/NonEmpty.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/NonEmpty.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/TweetList$class.class" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/scala-2.11/classes/objsets/TweetList$class.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../../project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../../project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../../project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../target/scala-2.12/classes/week4/list.sc" afterPath="$PROJECT_DIR$/../../target/scala-2.12/classes/week4/list.sc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/default/objsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/default/objsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/default/objsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/default/objsets-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-compile-internal.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-compile.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-docs.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-optional.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-plugin.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-pom.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-provided.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-runtime.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-scala-tool.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-sources.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-test-internal.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-test.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/resolution-cache/reports/default-objsets-build-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/copyResources/$global/streams/out" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/src/main/scala/objsets/TweetSet.scala" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/src/main/scala/objsets/TweetSet.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/.history" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/$global/$global/$global/streams/out" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/$global/$global/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/definedTests/$global/streams/out" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/definedTests/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/exportedProducts/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/fullClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/incCompileSetup/$global/streams/inc_compile_2.11" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/internalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/test/$global/streams/out" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/test/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/test/$global/streams/succeeded_tests" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/test/$global/streams/succeeded_tests" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/test/isModule=false name=objsets.TweetSetSuite/test/out" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/streams/test/test/isModule=false name=objsets.TweetSetSuite/test/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week3Assignment/objsets/target/test-reports/objsets.TweetSetSuite.xml" afterPath="$PROJECT_DIR$/../../week3Assignment/objsets/target/test-reports/objsets.TweetSetSuite.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../week4Assignment/patmat/src/main/scala/patmat/Huffman.scala" afterPath="$PROJECT_DIR$/../../week4Assignment/patmat/src/main/scala/patmat/Huffman.scala" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Anagrams.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1285">
+              <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnagramsSuite.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/forcomp/AnagramsSuite.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-80">
+              <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/forcomp/package.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loaddi</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/scala/forcomp/AnagramsSuite.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1269" />
+    <option name="height" value="714" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="progfun1-forcomp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forcomp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="progfun1-forcomp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forcomp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="progfun1-forcomp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forcomp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="progfun1-forcomp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forcomp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="progfun1-forcomp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forcomp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="progfun1-forcomp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forcomp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="forcomp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.sbt" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="ScalaTest.AnagramsSuite.word anagrams: player">
+    <configuration name="AnagramsSuite.dictionaryByOccurrences.get: eat" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="root" />
+      <setting name="path" value="forcomp.AnagramsSuite" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="dictionaryByOccurrences.get: eat" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+    </configuration>
+    <configuration name="AnagramsSuite.sentenceOccurrences: abcd e" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="root" />
+      <setting name="path" value="forcomp.AnagramsSuite" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="sentenceOccurrences: abcd e" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+    </configuration>
+    <configuration name="AnagramsSuite.word anagrams: married" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="root" />
+      <setting name="path" value="forcomp.AnagramsSuite" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="word anagrams: married" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+    </configuration>
+    <configuration name="AnagramsSuite.word anagrams: player" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="root" />
+      <setting name="path" value="forcomp.AnagramsSuite" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="word anagrams: player" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+    </configuration>
+    <configuration name="AnagramsSuite.wordOccurrences: Robert" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="root" />
+      <setting name="path" value="forcomp.AnagramsSuite" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="wordOccurrences: Robert" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.wordOccurrences: Robert" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.sentenceOccurrences: abcd e" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.dictionaryByOccurrences.get: eat" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.word anagrams: married" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.word anagrams: player" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.word anagrams: player" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.word anagrams: married" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.dictionaryByOccurrences.get: eat" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.sentenceOccurrences: abcd e" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.AnagramsSuite.wordOccurrences: Robert" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1503072276802" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="progfun1-forcomp" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="root-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfaaf24f-3896-4fb2-a36d-88c62c539a17" name="Default" comment="" />
+      <created>1503070472217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1503070472217</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AnagramsSuite_dictionaryByOccurrences_get__eat - 2017.08.19 at 15h 06m 26s.xml">
+      <configuration name="AnagramsSuite.dictionaryByOccurrences.get: eat" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AnagramsSuite_sentenceOccurrences__abcd_e - 2017.08.19 at 09h 43m 13s.xml">
+      <configuration name="AnagramsSuite.sentenceOccurrences: abcd e" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AnagramsSuite_sentenceOccurrences__abcd_e - 2017.08.19 at 09h 44m 09s.xml">
+      <configuration name="AnagramsSuite.sentenceOccurrences: abcd e" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AnagramsSuite_sentenceOccurrences__abcd_e - 2017.08.19 at 10h 26m 19s.xml">
+      <configuration name="AnagramsSuite.sentenceOccurrences: abcd e" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AnagramsSuite_wordOccurrences__Robert - 2017.08.18 at 23h 12m 14s.xml">
+      <configuration name="AnagramsSuite.wordOccurrences: Robert" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AnagramsSuite_wordOccurrences__abcd - 2017.08.18 at 23h 09m 59s.xml">
+      <configuration name="AnagramsSuite.wordOccurrences: abcd" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AnagramsSuite_wordOccurrences__abcd - 2017.08.18 at 23h 12m 06s.xml">
+      <configuration name="AnagramsSuite.wordOccurrences: abcd" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AnagramsSuite_word_anagrams__married - 2017.08.19 at 16h 01m 29s.xml">
+      <configuration name="AnagramsSuite.word anagrams: married" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="AnagramsSuite_word_anagrams__player - 2017.08.19 at 16h 01m 42s.xml">
+      <configuration name="AnagramsSuite.word anagrams: player" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1269" height="714" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24938875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33764136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar!/scala/collection/TraversableLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="328" column="6" lean-forward="false" selection-start-line="328" selection-start-column="6" selection-end-line="328" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/forcomp/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/forcomp/AnagramsSuite.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="37" column="14" lean-forward="true" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1285">
+          <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
