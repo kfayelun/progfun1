@@ -125,8 +125,6 @@ class Empty extends TweetSet {
   def isEmpty: Boolean = true
 
   def mostRetweeted: Tweet = throw new NoSuchElementException
-
-//  def descendingByRetweet: TweetList = Nil
   
   /**
    * The following methods are already implemented

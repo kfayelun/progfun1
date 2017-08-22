@@ -1,10 +1,5 @@
 package patmat
 
-import common._
-import patmat.Huffman._
-
-import scala.collection.immutable
-import scala.reflect.api.Trees
 
 /**
  * Assignment 4: Huffman coding
@@ -98,7 +93,7 @@ object Huffman {
     }
     result.sortBy(_.weight)
     }
-  
+
   /**
    * Checks whether the list `trees` contains only one single code tree.
    */
