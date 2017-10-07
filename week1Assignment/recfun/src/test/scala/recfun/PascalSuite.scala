@@ -19,4 +19,14 @@ class PascalSuite extends FunSuite {
       assert(pascal(1,3) === 3)
   }
 
+    test("pascal: col=4,row=3") {
+      intercept[IllegalArgumentException] {
+        pascal(4,3)
+      }
+  }
+
+    test("pascal: col=3,row=3") {
+      assert(pascal(3,3) === 1)
+  }
+
 }
